@@ -1,0 +1,33 @@
+.slider-container{
+    border: 1px solid ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+    &_box{
+        width: 1060px;
+        border: 1px solid;
+        display: flex;
+        overflow: hidden;
+        overflow-x:scroll ;
+        scroll-behavior: smooth;
+    }
+}
+
+
+.images{
+    width: 100px;
+    height: 250px;
+    margin: 0 10px;
+
+}
+
+
+.img_box{
+    display: flex;
+   
+}
+
+.img_box :nth-child(1){
+    margin-left: 0;
+}
