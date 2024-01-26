@@ -36,8 +36,9 @@ const Slider = () => {
     const topOffset = box.current.scrollLeft
     console.log('Scroll Position:', index,topOffset);
       if (box.current) {
-        !mobile?box.current.scrollLeft =index*( scrolleftvalue+gap): box.current.scrollLeft =index*( scrolleftvalue+ 250+gap);
+        mobile?box.current.scrollLeft =index*( scrolleftvalue+gap): box.current.scrollLeft =index*( scrolleftvalue+ 250+gap);
        // setscrollleftvalue(index*(scrolleftvalue+250+gap))
+  
        !mobile?setindex(index+4):setindex(index+1)
 
       }
@@ -56,7 +57,7 @@ const Slider = () => {
         if(screeSize<400)
         {
             box.current.style.width="250px"
-            setgap(0)
+            //setgap(0)
             setindex(1)
             setmobile(true)
         }else{
