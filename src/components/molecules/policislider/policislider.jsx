@@ -29,7 +29,7 @@ const Slider = () => {
   const [boxsize,setboxsize]=useState() 
   const [mobile,setmobile]=useState(false)
   const [index,setindex]=useState(1)
-  const [scrolleftvalue,setscrollleftvalue]=useState(100)
+  const [scrolleftvalue,setscrollleftvalue]=useState(250)
   const [gap,setgap]=useState(20)
   const box=useRef()
   const scrollByAmount = () => {
