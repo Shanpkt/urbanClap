@@ -23,6 +23,22 @@ function Topbanner() {
         }</div>
 
          </div>
+         <div className='bottom_info'>
+            <div className='bottom_info__rating_box'>
+                <img src='https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_48,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1693570188661-dba2e7.jpeg'/>
+                <div>
+                    <h5>4.6</h5>
+                    <h6>service Rating</h6>
+                </div>
+            </div>
+            <div className='bottom_info__rating_box'>
+                <img src='https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_48,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1693491890812-e86755.jpeg'/>
+                <div>
+                    <h5>4.6</h5>
+                    <h6>service Rating</h6>
+                </div>
+            </div>
+         </div>
             
         </div>
         <div className='right_Half_Banner'>

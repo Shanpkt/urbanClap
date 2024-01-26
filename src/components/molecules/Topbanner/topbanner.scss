@@ -4,7 +4,7 @@
     width: 100%;
    // height: variables.$width-10;
    height: fit-content;
-    border: 1px solid black;
+   
     display: flex;
     box-sizing: border-box;
     padding: 0 150px;
@@ -12,7 +12,7 @@
 
     .left_Half_optionBox{
         width: 50%;
-        border: 1px solid black;
+       
  h4{
     font-size: 36px;
     font-weight: 600;
@@ -23,7 +23,7 @@
  }
 
         .option_box{
-            width: fit-content;
+            width: 443px;
            // height: 100%;
             padding: 20px 20px;
             gap: 10px;
@@ -34,8 +34,9 @@
             justify-content: center;
             flex-wrap: wrap;
             h4{
-                font-size: 14px;
+                font-size: 18px;
                 font-weight: 400;
+                margin-bottom: 10px ;
                // text-align: center;
                 font:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
             }
@@ -65,7 +66,7 @@
                     }
                 }
                 h3{
-                    font-size: 10px;
+                    font-size: 13px;
                     font-weight: 400;
                     text-align: center;
                     font:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -75,14 +76,43 @@
         }
     }
 
+
+    .bottom_info{
+       
+        width: 100%;
+        display: flex;
+        gap: 40px;
+
+        &__rating_box{
+           
+            width: fit-content;
+            display: flex;
+            margin: 30px 0 0 0;
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+
+            h5{
+             margin: 10px 0 0 10px;
+             font-size: 18px;
+            }
+            h6{
+                margin: 0 0 0 10px;
+                font-size: 13px;
+            }
+        }
+    }
+
     .right_Half_Banner{
         width: 50%;
         height: 616px;
-        border: 1px solid rgb(165, 22, 22);
+       
 
         img{
             width: 100%;
-            height: 100%;
+            height: 80%;
         }
     }
 }

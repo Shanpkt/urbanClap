@@ -1,21 +1,39 @@
 .slider-container{
-    border: 1px solid ;
+   // border: 1px solid ;
     width:100%;
     display: flex;
     justify-content: center;
 
     &_box{
         width: 1060px;
-        border: 1px solid;
+       // border: 1px solid;
         display: flex;
         overflow: hidden;
         overflow-x:scroll ;
         scroll-behavior: smooth;
     }
+
+   
+
 }
 
 
-.images{
+
+.slider-container_box::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+.policiesImages{
+    width: 340px;
+    height: 150px;
+    margin: 0 10px;
+
+}
+
+.newworthy{
     width: 250px;
     height: 250px;
     margin: 0 10px;
