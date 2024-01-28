@@ -1,0 +1,36 @@
+.navbar_box{
+    width: 100%;
+    display: flex;
+    height: auto;
+    border: 1px solid rgb(237, 237, 237);
+
+    @media (max-width: 400px){
+        display: block;
+    }
+
+}
+
+.inputSelecion_box{
+    display: flex;
+    height: 100%;
+   // border: 1px solid black;
+
+    &__left{
+        display: flex;
+        height: 48px;
+        width: 308px;
+        border: 1px solid rgb(205 204 204);
+        border-radius: 8px;
+
+        input{
+            width: 70%;
+            border: none;
+        }
+    }
+}
+
+
+.locationimg{
+    width: 27px;
+    margin: 0 0 0 10px;
+}

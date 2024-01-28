@@ -6,14 +6,30 @@
     },
     {
         "urls":[
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700124385012-7be2b4.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg",
-            "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1694610010233-38a86a.jpeg"
-        ]
+            {
+            "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+            "botomHeading":"lifeboy"
+            },
+            {
+                "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+                "botomHeading":"lifeboy"
+                },
+                {
+                    "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+                    "botomHeading":"lifeboy"
+                    },
+                    {
+                        "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+                        "botomHeading":"lifeboy"
+                        },
+                        {
+                            "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+                            "botomHeading":"lifeboy"
+                            },
+                            {
+                                "imgurl": "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1693911849479-1cf211.jpeg",
+                                "botomHeading":"lifeboy"
+                                }
+                            ]
     }
 ]

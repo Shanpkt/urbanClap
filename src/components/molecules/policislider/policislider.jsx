@@ -20,7 +20,11 @@ const Slider = ({images}) => {
 
   const slide=<div  className='img_box'>
     {images[1].urls.map((e)=>{
- return(<img ref={myimg}  className={images[0].image_class} src={e}/>)
+ return(<div className={images[0].image_class}>
+    
+    <img ref={myimg}   src={e.imgurl}/>
+    {e.botomHeading && <div><h4>{e.botomHeading}</h4></div>}
+    </div>)
     })}
 </div>
   const scrollright = () => {
