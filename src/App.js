@@ -9,13 +9,13 @@ import Navbar from "./components/molecules/navbar/navbar";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/>
       <Topbanner/>
       <Slider images={images}/>
-      <Slider images={newwothy}/>
+      <Slider images={newwothy}/> */}
       <Slider images={womenSlon}/>
-      <GoBaner banner={databaner[0]}/>
-      <GoBaner banner={databaner[1]}/>
+      {/* <GoBaner banner={databaner[0]}/>
+      <GoBaner banner={databaner[1]}/> */}
     </div>
   );
 }
