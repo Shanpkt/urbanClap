@@ -12,6 +12,11 @@
         overflow: hidden;
         overflow-x:scroll ;
         scroll-behavior: smooth;
+
+        @media (max-width:400px){
+            width: 90%;
+           
+       }
     }
 
    
