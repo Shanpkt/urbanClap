@@ -54,6 +54,9 @@
                 margin-bottom: 10px ;
                // text-align: center;
                 font:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                @media (max-width:400px){
+                    display: none;
+                 }
             }
 
             .optionroll_box{
@@ -78,6 +81,9 @@
                     display: flex;
                     justify-content: center;
                     background-color: rgba(245,245,245,1.00);
+                    @media (max-width:400px){
+                        padding: 7px 0;
+                    }
 
                     img{
                         width: 50%;
@@ -89,6 +95,10 @@
                     font-weight: 400;
                     text-align: center;
                     font:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                    font-family: sans-serif;
+                    @media (max-width:400px){
+                       font-size: 9px;
+                    }
                 }
             }
 
