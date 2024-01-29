@@ -3,7 +3,10 @@
         "image_width":250,
         "skip_index":4,
         "image_class":"womenSlon",
-        "topheading_class":"topHeading_vlass"
+        "topheading_class":"topHeading_vlass",
+        "topBannerHeading":true,
+        "bannerInfo":[{"heading":"Womens Salon","subHeading":"bu y adn"}],
+        "seeall":true
     },
     {
         "urls":[

@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_info{
+    width: 1060px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
