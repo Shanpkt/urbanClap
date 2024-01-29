@@ -21,7 +21,7 @@ const Slider = ({images}) => {
   const slide=<div  className='img_box'>
     {images[1].urls.map((e)=>{
  return(<div className={images[0].image_class}>
-    
+     { e.topHeading && <div className='topHeading_vlass'><h4>{e.topHeading}</h4></div>}
     <img ref={myimg}   src={e.imgurl}/>
     {e.botomHeading && <div><h4>{e.botomHeading}</h4></div>}
     </div>)
@@ -86,7 +86,7 @@ const Slider = ({images}) => {
            
         </div>
     
-        <button onClick={scrollright}>click</button>
+       <div className='buttonBox'><button className='right_button' onClick={scrollright}></button></div> 
     </div>
   );
 };

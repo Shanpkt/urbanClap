@@ -1,0 +1,36 @@
+[
+    {
+        "image_width":250,
+        "skip_index":4,
+        "image_class":"womenSlon",
+        "topheading_class":"topHeading_vlass"
+    },
+    {
+        "urls":[
+            {
+            "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+            "topHeading":"Waxing"
+            },
+            {
+                "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+                "topHeading":"Waxing"
+                },
+                {
+                    "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+                    "topHeading":"Waxing"
+                    },
+                    {
+                        "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+                        "topHeading":"Waxing"
+                        },
+                        {
+                            "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+                            "topHeading":"Waxing"
+                            },
+                            {
+                                "imgurl":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700128460538-cfb695.jpeg",
+                                "topHeading":"Waxing"
+                                }
+                            ]
+    }
+]

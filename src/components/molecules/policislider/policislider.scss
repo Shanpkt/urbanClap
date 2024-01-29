@@ -3,6 +3,7 @@
     width:100%;
     display: flex;
     justify-content: center;
+   
 
     &_box{
         width: 1060px;
@@ -43,9 +44,47 @@
 
 .img_box{
     display: flex;
+    
    
+}
+
+.buttonBox{
+ display: flex;
+ height: auto;
+ align-items: center;
+ justify-content: center;
+
+.right_button{
+    width: 25px ;
+    height: 25px;
+    border-radius: 50px;
+}
+
 }
 
 .img_box :nth-child(1){
     margin-left: 0;
+}
+
+
+.womenSlon{
+    border: 1px solid rgb(177, 174, 174);
+    margin: 0 20px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    @media (max-width:400px){
+         width: 100px;
+    }
+
+    img{
+        @media (max-width:400px){
+            width:100%;
+       } 
+    }
+}
+
+.topHeading_vlass{
+    
+    padding: 0 0 0 15px;
 }
