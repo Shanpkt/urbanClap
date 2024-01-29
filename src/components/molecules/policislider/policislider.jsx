@@ -80,7 +80,7 @@ const Slider = ({images}) => {
     
   return (
     <div className="slider-container">
-        <button onClick={scrollleft}>click</button>
+       <div className='buttonBox'> <button onClick={scrollleft}>click</button></div>
         <div ref={box} className='slider-container_box'>
             {slide}
            

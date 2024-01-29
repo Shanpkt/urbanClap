@@ -14,7 +14,7 @@
         scroll-behavior: smooth;
 
         @media (max-width:400px){
-            width: 90%;
+            width: 90% !important;
            
        }
     }
@@ -58,6 +58,10 @@
  height: auto;
  align-items: center;
  justify-content: center;
+ @media (max-width:400px){
+    display: none;
+   
+}
 
 .right_button{
     width: 25px ;
